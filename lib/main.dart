@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Inter',
         // useMaterial3: true,
       ),
-      home: HomeScreen(title: 'Caltulator'),
+      home: HomeScreen(title: 'Calculator'),
     );
   }
 }
