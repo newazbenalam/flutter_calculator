@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Color colorSeed = Color.fromARGB(255, 135, 104, 206);
+Color colorSeed = const Color.fromARGB(255, 135, 104, 206);
 Color secondary = colorSeed.withOpacity(0.89);
 const double h1 = 38;
 const double h2 = 32;
@@ -26,7 +26,8 @@ ButtonStyle myStyle = ButtonStyle(
 )));
 
 ButtonStyle equalStyle = ButtonStyle(
-    backgroundColor: MaterialStatePropertyAll(Color.fromARGB(255, 37, 43, 70)),
+    backgroundColor:
+        const MaterialStatePropertyAll(Color.fromARGB(255, 37, 43, 70)),
     shape: MaterialStateProperty.all<RoundedRectangleBorder>(
         RoundedRectangleBorder(
       borderRadius: BorderRadius.circular(0.0),
